@@ -56,6 +56,9 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     libcurl4-openssl-dev \
     zlib1g-dev \
     sudo \
+    openssl \
+    python3-pip \
+    python3-venv \
     pkg-config \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
